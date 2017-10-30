@@ -1,0 +1,10 @@
+{
+  "name": "hydroponics-web",
+  "version": "alpha",
+  "description": "水耕栽培のデータ閲覧用Webページ",
+  "main": "index.js",
+  "repository": "https://github.com/Roadagain/hydroponics-web.git",
+  "author": "Roadagain <ringoh72@gmail.com>",
+  "license": "MIT",
+  "private": true
+}

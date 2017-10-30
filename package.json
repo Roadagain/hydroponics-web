@@ -6,5 +6,9 @@
   "repository": "https://github.com/Roadagain/hydroponics-web.git",
   "author": "Roadagain <ringoh72@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
 }

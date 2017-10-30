@@ -7,7 +7,7 @@
   "author": "Roadagain <ringoh72@gmail.com>",
   "license": "MIT",
   "private": true,
-  "script": {
+  "scripts": {
       "build": "webpack --colors --progress",
       "start": "webpack-dev-server --colors --progress"
   },

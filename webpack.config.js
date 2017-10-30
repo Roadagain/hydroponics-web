@@ -1,24 +1,26 @@
 require('babel-core/register');
 
 module.exports = {
+    context: __dirname,
     entry: './src/index.jsx',
-
     output: {
-        path: './dist',
-        filename: 'bundle.js'
+        filename: './dist/bundle.js'
+    },
+
+    devtool: 'source-map',
+
+    resolve: {
+        extensions: ['.js', '.jsx']
     },
 
     module: {
-        loaders: [
+        rules: [
             {
-                test: /\.jsx$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader'
+                test: /\.jsx?$/,
+                use: [
+                    {loader: 'babel-loader'}
+                ]
             }
         ]
-    },
-
-    resolve: {
-        extensions: ['.jsx', '.js']
-    },
+    }
 }

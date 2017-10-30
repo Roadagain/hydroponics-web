@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-      "build": "webpack --colors --progress",
-      "start": "webpack-dev-server --colors --progress"
+    "build": "webpack --colors --progress",
+    "start": "webpack-dev-server --colors --progress"
   },
   "dependencies": {
     "react": "^16.0.0",

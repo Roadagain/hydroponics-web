@@ -7,7 +7,7 @@ export default class Navigation extends React.Component {
             {name: 'Measured', link: '/measured.html'},
             {name: 'Analysed', link: '/analysed.html'}
         ];
-        const navItems = items.map(item => <NavItem href={item.link}>{item.name}</NavItem>);
+        const navItems = items.map((item, index) => <NavItem href={item.link} key={index}>{item.name}</NavItem>);
         return (
             <Navbar>
                 <Navbar.Header>

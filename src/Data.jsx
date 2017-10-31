@@ -6,7 +6,7 @@ export default class Data extends React.Component {
         const data = [];
         for (let i = 0; i < 31; ++i){
             const dateStr = '2017/01/' + (i < 10 ? '0' : '') + (i + 1);
-            data.push(<tr>
+            data.push(<tr key={dateStr}>
                 <th className="text-right">{dateStr}</th>
                 <th className="text-right">{i + 1}</th>
                 <th className="text-right">23</th>

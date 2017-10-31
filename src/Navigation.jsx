@@ -4,7 +4,6 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 export default class Navigation extends React.Component {
     render() {
         const items = [
-            {name: 'Home', link: '/'},
             {name: 'Measured', link: '/measured.html'},
             {name: 'Analysed', link: '/analysed.html'}
         ];

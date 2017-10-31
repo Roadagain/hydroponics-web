@@ -13,7 +13,7 @@ export default class Navigation extends React.Component {
             <Navbar>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#">Hydroponics-Web</a>
+                        <a href="/">Hydroponics-Web</a>
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav>{navItems}</Nav>

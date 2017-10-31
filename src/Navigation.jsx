@@ -3,8 +3,12 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 export default class Navigation extends React.Component {
     render() {
-        const items = ["Home", "Measured", "Analysed"];
-        const navItems = items.map(name => <NavItem href="#">{name}</NavItem>);
+        const items = [
+            {name: 'Home', link: '/'},
+            {name: 'Measured', link: '/measured.html'},
+            {name: 'Analysed', link: '/analysed.html'}
+        ];
+        const navItems = items.map(item => <NavItem href={item.link}>{item.name}</NavItem>);
         return (
             <Navbar>
                 <Navbar.Header>

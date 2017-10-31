@@ -5,8 +5,9 @@ export default class Data extends React.Component {
     render() {
         const data = [];
         for (let i = 0; i < 31; ++i){
+            const dateStr = '2017/01/' + (i < 10 ? '0' : '') + (i + 1);
             data.push(<tr>
-                <th>{new Date(2017, 1, i).toDateString()}</th>
+                <th>{dateStr}</th>
                 <th>{i + 1}</th>
                 <th>23</th>
                 <th>60</th>

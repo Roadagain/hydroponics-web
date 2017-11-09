@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 
 export default class Navigation extends React.Component {
@@ -18,11 +19,9 @@ export default class Navigation extends React.Component {
         return (
             <Navbar>
                 <Navbar.Header>
-                    <LinkContainer to="/">
-                        <Navbar.Brand>
-                            Hydroponics-Web
-                        </Navbar.Brand>
-                    </LinkContainer>
+                    <Navbar.Brand>
+                        <Link to="/">Hydroponics-Web</Link>
+                    </Navbar.Brand>
                 </Navbar.Header>
                 <Nav>{navItems}</Nav>
             </Navbar>

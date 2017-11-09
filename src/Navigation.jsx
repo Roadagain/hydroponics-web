@@ -10,11 +10,11 @@ export default class Navigation extends React.Component {
             {name: 'Analysed', link: '/analysed'}
         ];
         const navItems = items.map((item, index) => {
-            return <LinkContainer to={item.link} key={index}>
-                <NavItem>
-                    {item.name}
-                </NavItem>
-            </LinkContainer>
+            return (
+                <LinkContainer to={item.link} key={index}>
+                    <NavItem>{item.name}</NavItem>
+                </LinkContainer>
+            );
         });
         return (
             <Navbar>

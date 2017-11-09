@@ -2,11 +2,20 @@ import React from 'react';
 import Navigation from './Navigation';
 import Data from './Data';
 
-export default class MockUp extends React.Component {
+export class Home extends React.Component {
     render() {
-        return <div>
-            <Navigation></Navigation>
-            <Data></Data>
-        </div>;
+        return <div></div>;
+    }
+}
+
+export class Measured extends React.Component {
+    render() {
+        return <Data></Data>;
+    }
+}
+
+export class Analysed extends React.Component {
+    render() {
+        return <div></div>;
     }
 }

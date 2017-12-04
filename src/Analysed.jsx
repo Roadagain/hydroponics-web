@@ -1,3 +1,4 @@
+import React from 'react';
 import GraphImage from './GraphImage';
 
 export class Analysed extends React.Component {

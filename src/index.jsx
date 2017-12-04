@@ -15,4 +15,5 @@ ReactDOM.render(
             <Route path="/analysed" component={Analysed} />
         </div>
     </BrowserRouter>,
-    document.getElementById('container'));
+    document.getElementById('container')
+);

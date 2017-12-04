@@ -14,4 +14,3 @@ ReactDOM.render(
         </div>
     </BrowserRouter>,
     document.getElementById('container'));
-//ReactDOM.render(<MockUp></MockUp>, document.getElementById('container'));

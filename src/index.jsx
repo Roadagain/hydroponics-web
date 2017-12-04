@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Measured, Analysed} from './MockUp';
 import Navigation from './Navigation';
+import Measured from './Measured';
+import Analysed from './Analysed';
 import {BrowserRouter, Route} from 'react-router-dom';
 
 ReactDOM.render(

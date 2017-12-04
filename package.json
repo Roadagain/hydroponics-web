@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --colors --progress",
-    "start": "webpack-dev-server --colors --progress",
+    "start": "webpack-dev-server --colors --progress --history-api-fallback",
     "deploy": "yarn run build && gh-pages -d ."
   },
   "dependencies": {
